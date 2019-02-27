@@ -1,0 +1,80 @@
+@import url('header.css');
+@import url('content.css');
+@import url('number.css');
+@import url('clients.css');
+@import url('contact.css');
+@import url('footer.css');
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 2560px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.tittle {
+    font-family: 'Helvetica Neue Cyr', sans-serif;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../fonts/ProximaNova/ProximaNova-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Proxima Nova Lt;
+    src: url(../fonts/ProximaNova/ProximaNovaExCn-LightIt.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Proxima Nova - Regular;
+    src: url(../fonts/ProximaNova/ProximaNovaExCn-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr -Black;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Black.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr - Thin;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Thin.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Helvetica Neue Cyr - Bold;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Nunitosans;
+    src: url(../fonts/Nunitosans/Nunitosansblack.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}

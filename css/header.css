@@ -1,0 +1,312 @@
+.timer {
+    font-size: 30px;
+    text-align: center;
+}
+
+.timer_section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.timer_section>div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    background: #f76daf;
+    color: #ffffff;
+    line-height: 70px;
+    width: 55px;
+    margin: 0 1px;
+    border-radius: 10px;
+}
+
+.timer_section>div.timer_section_desc {
+    display: block;
+    background: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+    width: auto;
+    margin: 0;
+}
+
+.timer_delimetr {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+.all_timer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.image img {
+    width: 530px;
+    height: 500px;
+}
+
+.phone img {
+    width: 530px;
+    height: 500px;
+}
+
+.timer_conteiner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text_first h2 {
+    color: #000000;
+    color: #90b308;
+    font-family: Roboto;
+    font-size: 65px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.text_second h2 {
+    color: #90b308;
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1780px) {
+    .image img {
+        width: 450px;
+        height: 390px;
+    }
+    .phone img {
+        width: 430px;
+        height: 390px;
+    }
+    .text_first h2 {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .text_second h2 {
+        color: #90b308;
+        font-family: Roboto;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .timer {
+        font-size: 0;
+    }
+}
+
+@media screen and (max-width:1377px) {
+    .image img {
+        width: 350px;
+        height: 250px;
+    }
+    .phone img {
+        width: 350px;
+        height: 250px;
+    }
+    .text_first h2 {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 35px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .text_second h2 {
+        color: #90b308;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .timer_section>div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 40px;
+        background: #f76daf;
+        color: #ffffff;
+        line-height: 70px;
+        width: 45px;
+        margin: 0 1px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1143px) {
+    .image img {
+        width: 350px;
+        height: 250px;
+    }
+    .phone img {
+        width: 350px;
+        height: 250px;
+    }
+    .text_first h2 {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .text_second h2 {
+        color: #90b308;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .timer_section>div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 25px;
+        background: #f76daf;
+        color: #ffffff;
+        line-height: 70px;
+        width: 30px;
+        margin: 0 1px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .all_timer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        text-align: center;
+    }
+    .image img {
+        width: 450px;
+        height: 320px;
+    }
+    .phone img {
+        width: 450px;
+        height: 320px;
+    }
+    .text_first h2 {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .text_second h2 {
+        color: #90b308;
+        font-family: Roboto;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .timer_section>div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 25px;
+        background: #f76daf;
+        color: #ffffff;
+        line-height: 70px;
+        width: 40px;
+        margin: 0 1px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .all_timer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        text-align: center;
+    }
+    .image img {
+        width: 300px;
+        height: 220px;
+    }
+    .phone img {
+        width: 300px;
+        height: 220px;
+    }
+    .text_first h2 {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 23px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .text_second h2 {
+        color: #90b308;
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .timer_section>div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 20px;
+        background: #f76daf;
+        color: #ffffff;
+        line-height: 70px;
+        width: 30px;
+        margin: 0 1px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .all_timer {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        text-align: center;
+    }
+    .image img {
+        width: 210px;
+        height: 150px;
+    }
+    .phone img {
+        width: 210px;
+        height: 150px;
+    }
+    .text_first h2 {
+        color: #000000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        color: #000000;
+    }
+    .text_second h2 {
+        color: #90b308;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .timer_section>div {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 20px;
+        background: #f76daf;
+        color: #ffffff;
+        line-height: 70px;
+        width: 20px;
+        margin: 0 1px;
+        border-radius: 10px;
+    }
+    .timer_section>div.timer_section_desc {
+        display: block;
+        background: none;
+        color: inherit;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 30px;
+        width: auto;
+        margin: 0;
+    }
+}
